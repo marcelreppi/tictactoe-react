@@ -1,0 +1,31 @@
+.Board {
+  display: table;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.Field {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 80px;
+  font-weight: bold;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+}
+
+.Field:focus {
+  outline: none;
+}
+
+.winning {
+  background: rgba(0, 255, 149, 0.5)
+}
